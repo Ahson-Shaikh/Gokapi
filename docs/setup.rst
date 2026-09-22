@@ -110,6 +110,11 @@ The ``gokapi-data`` and ``gokapi-config`` folders are created automatically in t
 
 By default the container restarts automatically on boot (``restart: always``). Change to ``restart: unless-stopped`` if you only want automatic restart after a crash.
 
+Easypanel
+"""""""""
+
+`Easypanel <https://easypanel.io>`_ is a self-hosted Docker deployment platform, and Gokapi has a one-click deployment template there. Deploy it from https://easypanel.io/templates/gokapi - Easypanel sets up the persistent volumes for you automatically.
+
 Native Deployment
 """""""""""""""""
 
